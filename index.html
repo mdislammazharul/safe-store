@@ -18,7 +18,12 @@
 </head>
 
 <body>
-  <header></header>
+  <header class="d-flex flex-column align-items-center">
+    <h1 class="display-3 mt-5 text-primary">Safe Store</h1>
+    <p class="lead">
+      Stay Safe -- Buy Safe
+    </p>
+  </header>
   <main class="main">
     <div class="search-field">
       <!-- <div class="search-box">
@@ -28,7 +33,7 @@
       </div> -->
       <!-- edit -->
       <div class="d-flex justify-content-center">
-        <div class="input-group mb-3 mt-5" style="width: 500px">
+        <div class="input-group mb-3 " style="width: 500px">
           <input type="text" class="form-control" placeholder="Search Products" aria-label="Search Products"
             aria-describedby="button-addon2">
           <button class="btn btn-primary" type="button" id="button-addon2" onclick="loadProducts()">Search</button>
